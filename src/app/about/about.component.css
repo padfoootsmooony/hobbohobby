@@ -1,0 +1,233 @@
+.about{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(252, 138, 201);
+    padding-top: 200px;
+    border-bottom: 2px solid rgb(227, 91, 166);
+}
+
+.about-left{
+    width: 50%;
+    height: 500px;
+  
+}
+.about-right{
+    width: 50%;
+    height: 500px;
+    padding-left: 45px;
+    
+}
+.about-h1{
+    text-align: right;
+    font-size: 60px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+}
+.about-logo{
+  
+    width: 140px;
+    height:140px;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    object-fit: fill;
+    margin-top: 250px;
+  
+}
+
+.about-text{
+    text-align: left;
+    width: 435px;
+    /* width: 60%; */
+    margin: 15px;
+    line-height: 22px;
+}
+
+
+/* instructions */
+
+.instructions{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(252, 138, 201);
+}
+
+.instructions-left, .instructions-right{
+    width: 50%;
+    height: 500px;
+   display: flex;
+   flex-direction: column;
+}
+.instructions-right{
+    padding-top: 50px;
+}
+
+.instructions-h1{
+    font-size: 60px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    margin: 50px auto;
+    
+}
+
+.instructions-logo{
+    width: 140px;
+    height:140px;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    object-fit: fill;
+    margin: auto;
+}
+
+.instructions-p{
+    width: 435px;
+    margin:  50px auto;
+    line-height: 22px;
+    text-align: center;
+   
+}
+
+.instructions-row{
+    gap: 20px;
+    width: 90%;
+    /* height: 300px; */
+    margin:auto;
+    display: flex;
+
+}
+.instr-block{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 300px;
+   
+}
+.instructions-steps{
+    margin: 7px 0;
+    
+
+}
+
+.step-number{
+    font-family: "DynaPuff", system-ui;
+}
+
+
+
+
+
+/* 
+
+
+
+
+.footer{
+    width: 100%;
+    height: 549px;
+    background-color: hsl(323, 66%, 72%);
+    display: flex;
+}
+.footer-left{
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 549px;
+
+}
+.logo{
+    width: 150px;
+    height:150px;
+    margin: 30px;
+    border-radius: 100px;
+    object-fit: fill;
+  
+}
+.footer-right{
+width:50%;
+height: 549px;
+}
+.footer-map{
+margin-top: 50px;
+width: 90%;
+margin-left: 5%;
+}
+.footer-p2, .footer-h1{
+width: 420px;
+margin-left: 39px;
+}  
+.footer-h1{
+    font-family: "DynaPuff", system-ui;
+    font-weight: 100;
+} */
+
+
+@media screen and (max-width:945px){
+    .footer{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .footer-left{
+        height: 300px;
+        
+    }
+}
+
+@media screen and (max-width: 992px) {
+   
+    .footer-left,
+    .footer-right {
+      width: 100%;
+      
+    }
+
+
+  
+  }
+
+  @media screen and (max-width:970px){
+    .about, .instructions{
+        flex-direction: column ;
+        align-items: center;
+        
+        
+
+    }
+
+    .about-h1{
+        text-align: center;
+
+    }
+    .about-left{
+        height: auto;
+        width: 100%;
+    }
+    .about-logo{
+        display: none;
+
+    }
+    .about-text{
+        width:100% ;
+    }
+    .about-right{
+        width:90%;
+        padding-left: 0;
+       
+    }
+    .about{
+        height: 850px;
+
+    }
+.instructions-left, .instructions-right{
+    width: 100%;
+
+}
+.instructions{
+    height: 1150px;
+}
+    
+  }
+  
