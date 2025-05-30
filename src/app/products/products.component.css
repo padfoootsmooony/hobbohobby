@@ -148,3 +148,9 @@ margin: auto;
         object-fit: contain;
     }
 }
+@media (max-width: 415px){
+    .products-h2{
+        font-size:18px ;
+    }
+}
+

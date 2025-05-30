@@ -49,3 +49,35 @@ margin-left: 39px;
     font-family: "DynaPuff", system-ui;
     font-weight: 100;
 }
+
+
+@media screen and (max-width:470px){
+    .footer-p2{
+        margin-left: 5px;
+        width:400px ;
+    }
+    .footer-h1{
+        margin-left: 5px;
+        width: 50%;
+    }
+    .about-p{
+        width: 100%;
+        text-align: center;
+        height: auto;
+       }
+        
+        .section2{
+            height: 300px;
+        }
+    }
+        
+    @media screen and (max-width:400px){
+        .footer-p2{
+            margin-left: 0;
+            width:300px ;
+        }
+        .footer-h1{
+            margin-left: 0;
+        }
+       
+        }

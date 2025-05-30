@@ -196,6 +196,9 @@ margin-left: 39px;
         
 
     }
+    .instructions-left{
+        height: 600px;
+    }
 
     .about-h1{
         text-align: center;
@@ -226,8 +229,45 @@ margin-left: 39px;
 
 }
 .instructions{
-    height: 1150px;
+    height: 1350px;
 }
-    
+.instructions-logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .instructions-row{
+        margin-top: 20px;
+    }
   }
   
+
+  @media screen and (max-width:455px){
+    .instructions-p{
+        width:auto ;
+        margin: 25px 10px 10px 0;
+    }
+     .instructions-h1{
+        font-size:50px ;
+     }
+}
+
+@media screen and (max-width:430px){
+.about{
+    height: 900px;
+ }
+}
+@media screen and (max-width:455px){
+    .about{
+        height: 1000px;
+     }
+}
+
+@media screen and (max-width:362px){
+    .about{
+        height: 1050px;
+     }
+     .instructions-h1{
+        font-size: 40px;
+     }
+}
+

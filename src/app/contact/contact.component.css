@@ -4,12 +4,13 @@
     background-color: rgb(254, 196, 240);
     padding-top: 250px;
     display: flex;
+    flex-direction: row;
 
 }
 .contact-texts{
     display: flex;
     width: 65%;
-    height: 300px;
+    height: 500px;
 
 }
 
@@ -115,3 +116,39 @@
         height: 350px;
     }
 }
+
+@media (max-width: 518px) {
+    .contact {
+      flex-direction: column;
+      /* align-items: center; */
+      height: auto; /* more responsive */
+      padding-top: 100px;
+      padding-top: 200px;
+    }
+  
+    .contact-texts {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      /* align-items: center; */
+    }
+  
+    .contact-left,
+    .contact-right {
+      width: 90%;
+      height: auto;
+     
+      /* text-align: center; */
+    }
+  
+    .contact-right{
+        margin:20px 0;
+        
+    }
+    .contact-img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+  
